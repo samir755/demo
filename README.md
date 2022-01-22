@@ -18,7 +18,7 @@ Install the `symfony` Vendor on your computer:
 
 ```bash
 composer require symfony/runtime
-composer Install
+composer install
 ```
 
 Generate database, set rights and load fixtures
