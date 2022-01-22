@@ -23,8 +23,8 @@ composer install
 
 Generate database, set rights and load fixtures
 ```bash
-symfony console d:d:c
-symfony console d:s:u —force
+php bin/console d:d:c
+php bin/console d:s:u —force
 
 chown -R root:www-data ../demo
 chmod -R 775 var 
